@@ -4,7 +4,7 @@ class Hash
     # code goes here
     keys = collect do |key, val|
       if arguments.include?val
-        return key
+         key
       end
     end
     keys.compact
